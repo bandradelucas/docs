@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteCond %{HTTP:X-Forwarded-Proto} !=https [OR]
+        RewriteCond %{HTTP_HOST} ^www\. [NC]
+        RewriteCond %{SERVER_NAME} ^(www\.)?(.*)$ [NC]
+        RewriteRule ^/?(.*)$ https://%2/$1 [L,R=301]
+</ifModule>
