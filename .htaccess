@@ -1,5 +1,8 @@
 <IfModule mod_rewrite.c>
         RewriteEngine On
+	# Default
+	# RewriteCond %{HTTPS} off [OR]
+	# AWS
         RewriteCond %{HTTP:X-Forwarded-Proto} !=https [OR]
         RewriteCond %{HTTP_HOST} ^www\. [NC]
         RewriteCond %{SERVER_NAME} ^(www\.)?(.*)$ [NC]
