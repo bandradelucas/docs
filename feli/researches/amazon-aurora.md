@@ -6,11 +6,11 @@
 
 Servidor de banco de dados relacional
 
-Possui um sistema de armazenamento distribuído 
+Possui um sistema de armazenamento distribuído
 
 ## Pra que serve?
 
-Gerenciamento dos dados na
+Serviço de gerenciamento de banco de dados
 
 ## Vantagens
 
@@ -92,3 +92,4 @@ Taxa de E/S	| 0,28 USD por 1 milhão de solicitações
 - Amazon Aurora Introduction. Available at: https://www.youtube.com/watch?v=ZCt3ctVfGIk
 - Introduction to Amazon Aurora - Relational Database Built for the Cloud - AWS. Available at: https://www.youtube.com/watch?v=FzxqIdIZ9wc
 - When Should I Use Amazon Aurora and When Should I use RDS MySQL? Available at: https://www.percona.com/blog/2018/07/17/when-should-i-use-amazon-aurora-and-when-should-i-use-rds-mysql/
+- Amazon Aurora. Available at: https://aws.amazon.com/rds/aurora/
